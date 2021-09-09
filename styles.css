@@ -1,14 +1,35 @@
 body {
   text-align: center;
   background-color: #011F3F;
+
+}
+.start{
+  padding: 15px;
+ font-size: 2rem;
+}
+.img{
+  background-image: url("http://braccousa.com/wp-content/uploads/2013/07/Dark-wooden-website-background.jpg");
+  background-size: cover;
+}
+.up1{
+  margin-top: 5px;
+  /* padding:7px 15px; */
+  font-family: 'PT Serif', serif;
+  font-size: 1rem;
+}
+.up{
+  margin-top: 5px;
+  /* padding:7px 15px; */
+    font-family: 'PT Serif', serif;
+    font-size: 1rem;
 }
 
-#level-title {
+/* #level-title {
   font-family: 'Press Start 2P', cursive;
   font-size: 3rem;
-  margin:  5%;
+  margin: 3% 5% 5% 5%;
   color: #FEF2BF;
-}
+} */
 
 .container {
   display: block;
@@ -17,18 +38,19 @@ body {
 
 }
 
-.btn {
+.btn1 {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 170px;
+  width: 170px;
   border: 10px solid black;
   border-radius: 20%;
 }
 
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+  background-image: url("https://i.ibb.co/0JN5LSg/maze-bac.jpg");
+  background-size: cover;
+  opacity: 3;
 }
 
 .red {
@@ -46,12 +68,88 @@ body {
 .yellow {
   background-color: yellow;
 }
-
+.orange{
+    background-color: orange;
+}
+.pink{
+  background-color: pink;
+}
 .pressed {
   box-shadow: 0 0 20px white;
   background-color: grey;
 }
-.ban{
-color: green;
-font-family: "fantasy";
-}
+#level-title{
+
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1.5rem;
+  margin: 1% 5% 0% 5%;
+
+     font-style: italic;
+
+     text-align: center;
+
+     color:#313131;
+
+     font-weight: bold;
+
+     -webkit-animation:colorchange 20s infinite alternate;
+
+
+   }
+
+   @-webkit-keyframes colorchange {
+     0% {
+
+       color: blue;
+     }
+
+     10% {
+
+       color: #8e44ad;
+     }
+
+     20% {
+
+       color: #1abc9c;
+     }
+
+     30% {
+
+       color: #d35400;
+     }
+
+     40% {
+
+       color: blue;
+     }
+
+     50% {
+
+       color: #34495e;
+     }
+
+     60% {
+
+       color: white;
+     }
+
+     70% {
+
+       color: #2980b9;
+     }
+     80% {
+
+       color: #f1c40f;
+     }
+
+     90% {
+
+       color: #2980b9;
+     }
+
+     100% {
+
+       color: pink;
+     }
+   }
+

@@ -4,39 +4,63 @@
 <head>
   <meta charset="utf-8">
   <title>Simon</title>
+  <!--  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="favicon2.ico">
+
+
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
 </head>
 
-<body>
-  <h1 id="level-title">Press A Key to Starttt</h1>
+<body class="img">
+  <div class="">
+  <a href="https://desolate-dawn-08511.herokuapp.com/">
+    <button type="button" class="up1 btn btn-lg btn-success" name="button">Return </button>
+  </a>
+
+  <a href="https://pritheshwar12.github.io/simon/">
+    <button type="button" class="up btn btn-sm btn-primary" name="button">Hard</button></a>
+    <br>
+    <br>
+
+        <button type="button" class="start btn btn-sm btn-primary" name="button">Start</button>
+
+
+</div>
+  <h1 id="level-title">Press A Key or tap start to play</h1>
   <div class="container">
     <div lass="row">
 
-      <div type="button" id="green" class="btn green">
+      <div type="button" id="green" class=" col-sm-6 btn1 green ">
 
       </div>
 
-      <div type="button" id="red" class="btn red">
+      <div type="button" id="red" class="col-sm-6 btn1 red ">
 
       </div>
-    </div>
 
-    <div class="row">
 
-      <div type="button" id="yellow" class="btn yellow">
 
-      </div>
-      <div type="button" id="blue" class="btn blue">
+      <div type="button" id="yellow" class="col-sm-4 col-sm-6 btn1 yellow">
 
       </div>
+      <div type="button" id="blue" class=" col-sm-4 col-sm-6 btn1 blue">
+
+      </div>
+
 
     </div>
 
   </div>
-  <h3 class="ban">@BANNU</h3>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<script src="game.js" charset="utf-8"></script>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="game.js" charset="utf-8"></script>
+
 </body>
 
 </html>
+

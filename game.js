@@ -107,3 +107,11 @@ function startOver() {
   gamePattern = [];
   started = false;
 }
+function popUp(){
+swal({
+  title: "Rules for Simon",
+  text: "You Need To Remember The Color Pattern Order And Click the Colour In Same Order",
+  icon: "info",
+  button: "Enjoy!",
+});
+}

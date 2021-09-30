@@ -4,7 +4,8 @@ body {
 
 }
 @media screen and (max-width: 400px) {
-  .res {
+  .container {
+    background-color:white;
     margin-top:300px;
   }
 }
